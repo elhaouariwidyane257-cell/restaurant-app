@@ -75,7 +75,7 @@ function ReviewPage({ title }) {
       {/* input */}
       <textarea
         className="input"
-        placeholder="Write your comment..."
+        placeholder="ecrire votre commentaire..."
         value={comment}
         onChange={(e) => setComment(e.target.value)}
       />
